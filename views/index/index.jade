@@ -1,0 +1,116 @@
+extends ../layout
+
+block content
+  #impress
+    .step#title-image-slide(data-x=-10000, data-y=-2000)
+        img(src="http://earthjustice.org/sites/default/files/havasupai-tribe.jpg?1331662736")
+
+    .step#title-slide(data-x=-8500, data-y=-2000)
+      .title.box Havasupai
+
+    .step#names-slide(data-x=-7000, data-y=-2000)
+      .title.box By:
+        .text Austin Wood
+        .text Mackenzie Williams
+        .text Tarah Udy
+
+    .step#history-slide(data-x=-5000, data-y=-2000)
+      .title History
+
+    .step#history-info-slide(data-x=-5000, data-y=-1300,)
+      ul
+        li Havasupai people, pre 1990's, were seasonal farmers
+        li Early 1890 the Bureau of Indian Affairs and Department of the Interior advised them to become intenst agriculturists
+        li John F. Gaddis teaches farming techniques with little success
+
+    .step#history-farming(data-x=-5000, data-y=-500)
+      .title Origional Techniques VS Gaddis Techniques
+          ul
+            li farmed small patches of land
+        .text Gaddis
+          ul
+          img(src=http://farm7.staticflickr.com/6138/6001397920_95b2cd6caf_z.jpg)
+          img(src=http://grandcanyonhistory.clas.asu.edu/images/sites/adjacentlands/havasupaireservation/Plower_thumb.jpg)
+            li Plant in Havasu canyon in the Spring
+            li planted corn, beans, sunflowers, and squash
+          img(src=http://naturevalleytrailview.com/callouts/83/havasupai_CO1_480.jpg)
+
+    .step#flood-info-slide(data-x=-3700, data-y=-500,)
+      .title Flood Info
+
+    .step#flood-history-slide(data-x=-3500, data-y=150)
+      .title Flood
+        ul
+          li Havasupi people were use to floods
+          li This is why they didn't put much effort into crop production
+          li 1898 flash flood removed the crops
+
+
+
+    .step#flood-image-slide1
+      .title.box Before and After
+        img( src="http://3.bp.blogspot.com/_JPtOjy3b2pU/TGJNkk_Il6I/AAAAAAAAATM/qapAEPF2axA/s320/old+hava.jpg")
+        img( src="http://4.bp.blogspot.com/_JPtOjy3b2pU/TGJNrcva2vI/AAAAAAAAATU/cFcRxUZqaqQ/s320/havasu+during+flood.jpg")
+    .step#flood-image-slide2(data-x=320,data-z=-325, data-rotate-y=90)
+      .title.box Before and After
+        img( src="http://www.lostandlovingit.org/wp-content/uploads/2012/05/IMG_37492-300x235.jpg")
+        img( src="http://www.lostandlovingit.org/wp-content/uploads/2012/05/Dead-Navajo-Falls-300x224.jpg")
+    .step#flood-image-slide3(data-z=-640, data-rotate-y=180)
+      .title.box Before and After
+        img( src="http://www.lostandlovingit.org/wp-content/uploads/2012/05/IMG_37511-300x245.jpg")
+        img( src="http://www.lostandlovingit.org/wp-content/uploads/2012/05/IMG_3540-300x225.jpg")
+    .step#flood-image-slide4(data-x=-325,data-z=-325,data-rotate-y=270)
+      .title.box Before and After
+        img( src="http://www.lostandlovingit.org/wp-content/uploads/2012/05/IMG_3698-300x236.jpg")
+        img( src="http://www.lostandlovingit.org/wp-content/uploads/2012/05/IMG_3718-300x222.jpg")
+
+    .step#why-this-matters(data-x=-800,data-y=1400,data-z=-125,data-rotate-y=270)
+      .title 2008 flood 
+        .text
+          ul
+            li the flood collapsed Fiftyfoot falls taking "2 acres of fify foot tall earth down the canyon"
+            li creeks were drained
+            li Mooney falls was pouring mud, and badins below the falls were filled
+            li 3 of the village homes had water damage
+            li bridges were destroyed
+            li 6 feet of soil and debris collected on the camp area
+            li 2 cemeteries are threatened by erosion and could collapsed
+            li trails were compromised
+            li initial estimated cost $2,523,981
+
+    .step#clean-up(data-x=-1000, data-y=1280, data-z=1325, data-rotate-y=270)
+      .title Solutions and Clean Up
+        ul
+          li Fix Earthen Dam
+          li Repare bridges
+          li Irridation Corrugated Metal Pipe Cleanout
+          li Clean irrigation ditch
+          li Fence and trail repairs
+          li Public saftey early warning system
+          li Geotechnical analysis of Havasu creek
+          li Reair campground
+          li Toilet compost cleanout (campground)
+          li Water system replacement
+          li trash removal
+
+    .step#future-problem-slide(data-x=8000, data-y=2000,data-z=1300, data-rotate-y=360)
+      .title Future Problem
+        li Reservation is in a "bowl" with many slot canyons
+        li Flash Floods are not easy to predict
+        li Flash floods can cause heavy erosion, too much sand in soil, deforestation, loss of tourism and income
+        li
+
+
+
+    .step#work-cited(data-x=8000, data-y=2000,data-z=3300, data-rotate-y=360)
+      .title Work Cited
+        .text http://www.havasupai-nsn.gov/files/ABQ-10-026_Signed.pdf
+        .text http://www.havasupai-nsn.gov/files/ExecutiveSummary.pdf
+        .text
+        .text
+        .text
+
+append scripts
+  script(src="/js/lib/impress.js")
+  script
+    impress().init();
