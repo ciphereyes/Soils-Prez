@@ -2,50 +2,72 @@ extends ../layout
 
 block content
   #impress
-    .step#title-image-slide(data-x=-10000, data-y=-2000)
-        img(src="http://earthjustice.org/sites/default/files/havasupai-tribe.jpg?1331662736")
+    .step#title-image-slide(data-x=-17000, data-y=-4000)
+      img(src="http://earthjustice.org/sites/default/files/havasupai-tribe.jpg?1331662736")
 
-    .step#title-slide(data-x=-8500, data-y=-2000)
+    .step#title-slide(data-x=-15000, data-y=-4000)
       .title.box Havasupai
 
-    .step#names-slide(data-x=-7000, data-y=-2000)
+    .step#names-slide(data-x=-12000, data-y=-4000)
       .title.box By:
         .text Austin Wood
         .text Mackenzie Williams
         .text Tarah Udy
 
-    .step#history-slide(data-x=-5000, data-y=-2000)
+    .step#history-slide(data-x=-10000, data-y=-4000)
       .title History
 
-    .step#history-info-slide(data-x=-5000, data-y=-1300,)
+    .step#history-info-slide(data-x=-10000, data-y=-2900,)
       ul
         li Havasupai people, pre 1990's, were seasonal farmers
-        li Early 1890 the Bureau of Indian Affairs and Department of the Interior advised them to become intenst agriculturists
-        li John F. Gaddis teaches farming techniques with little success
+        li"People of the blue-green waters"
+        li Covered Havasu Canyon with Mud-covered wickiups and brush( for irrigation)
+        li Planted corn, beans, sunflowers, and squash
+        li Early 1890 the Bureau of Indian Affairs and Department of the Interior advised them to become intense agriculturists
+        li 1919 (when the Grand Canyon National Park was established) the tribe was restricted to 518 acres, in Havasu Canyon, in the southwest corner of the park
 
-    .step#history-farming(data-x=-5000, data-y=-500)
-      .title Origional Techniques VS Gaddis Techniques
-          ul
-            li farmed small patches of land
-        .text Gaddis
-          ul
-          img(src=http://farm7.staticflickr.com/6138/6001397920_95b2cd6caf_z.jpg)
-          img(src=http://grandcanyonhistory.clas.asu.edu/images/sites/adjacentlands/havasupaireservation/Plower_thumb.jpg)
-            li Plant in Havasu canyon in the Spring
-            li planted corn, beans, sunflowers, and squash
-          img(src=http://naturevalleytrailview.com/callouts/83/havasupai_CO1_480.jpg)
+    .step#Soils-title(data-x=-8000, data-y=-2900)
+      .title Soil
 
-    .step#flood-info-slide(data-x=-3700, data-y=-500,)
+    .step#Soil-info(data-x=-8000, data-y=-2000)
+      .title Soil Info
+        ul
+          li Mineral resources: uranium, copper, vanadium, gypsum
+          li Geologic materials: tertiary and quaternary gravel, limestone, flagstone, sandstone, travertine
+          li Colorado River sediment in the Grand Canyon:fine grain, cobble/gravel
+        img(src="/img/CrossSection.png")
+    .step#history-farming(data-x=-5000, data-y=-2000)
+      .title Farming
+        ul
+            li Typically farmed small patches of land
+            li Plant in the Spring
+            li John F. Gaddis teaches farming techniques with little success
+            li Gladdis focused on sustainable farming
+            li This included planting on more available land, store surplus, used irrigation ditches to utilize water
+
+
+    .step#Farming-image-slide1(data-x=-5000, data-y=-500)
+      .box
+          img(src="http://farm7.staticflickr.com/6138/6001397920_95b2cd6caf_z.jpg")
+    .step#farm-image-slide2(data-x=-4700, data-y=-500,data-z=-325, data-rotate-y=90)
+      .box
+          img(src="http://grandcanyonhistory.clas.asu.edu/images/sites/adjacentlands/havasupaireservation/Plower_thumb.jpg")
+    .step#farm-image-slide3(data-x=-5000, data-y=-500,data-z=-645, data-rotate-y=180)
+      .box
+          img(src="http://naturevalleytrailview.com/callouts/83/havasupai_CO1_480.jpg")
+    .step#map-image(data-x=-5300,data-y=-500,,data-z=-325, data-rotate-y=270)
+      .box
+          img(src="http://cpluhna.nau.edu/images/havasupai.jpg")
+
+    .step#flood-info-slide(data-x=-2500, data-y=-500)
       .title Flood Info
 
-    .step#flood-history-slide(data-x=-3500, data-y=150)
+    .step#flood-history-slide(data-x=-2500, data-y=150)
       .title Flood
         ul
-          li Havasupi people were use to floods
+          li Floods are common in this area
           li This is why they didn't put much effort into crop production
           li 1898 flash flood removed the crops
-
-
 
     .step#flood-image-slide1
       .title.box Before and After
@@ -65,50 +87,62 @@ block content
         img( src="http://www.lostandlovingit.org/wp-content/uploads/2012/05/IMG_3718-300x222.jpg")
 
     .step#why-this-matters(data-x=-800,data-y=1400,data-z=-125,data-rotate-y=270)
-      .title 2008 flood 
+      .title 2008 flood
         .text
           ul
-            li the flood collapsed Fiftyfoot falls taking "2 acres of fify foot tall earth down the canyon"
-            li creeks were drained
+            li The flood collapsed Fiftyfoot falls taking "2 acres of fify foot tall earth down the canyon"
+            li Creeks were drained
             li Mooney falls was pouring mud, and badins below the falls were filled
             li 3 of the village homes had water damage
             li bridges were destroyed
             li 6 feet of soil and debris collected on the camp area
-            li 2 cemeteries are threatened by erosion and could collapsed
-            li trails were compromised
-            li initial estimated cost $2,523,981
+            li 2 cemeteries are threatened by erosion and could collapse
+            li Trails were compromised
+            li I+++nitial estimated cost $2,523,981
 
     .step#clean-up(data-x=-1000, data-y=1280, data-z=1325, data-rotate-y=270)
       .title Solutions and Clean Up
         ul
           li Fix Earthen Dam
-          li Repare bridges
+          li Repair bridges
           li Irridation Corrugated Metal Pipe Cleanout
           li Clean irrigation ditch
           li Fence and trail repairs
           li Public saftey early warning system
           li Geotechnical analysis of Havasu creek
-          li Reair campground
+          li Repair campground
           li Toilet compost cleanout (campground)
           li Water system replacement
-          li trash removal
+          li Trash removal
 
     .step#future-problem-slide(data-x=8000, data-y=2000,data-z=1300, data-rotate-y=360)
       .title Future Problem
         li Reservation is in a "bowl" with many slot canyons
         li Flash Floods are not easy to predict
-        li Flash floods can cause heavy erosion, too much sand in soil, deforestation, loss of tourism and income
-        li
+        li Flash floods can cause heavy erosion
+        li Too much sand in soil
+        li Deforestation
+        li Loss of tourism and income
 
 
 
-    .step#work-cited(data-x=8000, data-y=2000,data-z=3300, data-rotate-y=360)
+    .step#work-cited(data-x=8000, data-y=-3500,data-z=1300, data-rotate-y=360)
       .title Work Cited
-        .text http://www.havasupai-nsn.gov/files/ABQ-10-026_Signed.pdf
-        .text http://www.havasupai-nsn.gov/files/ExecutiveSummary.pdf
-        .text
-        .text
-        .text
+        .text Howard Allan, Dolan Robert. "Geomorphology of the Colorado River in the Grand Canyon" The Journal of Geology volume 89, number 3.(May 1981)
+        .text Keel, Jefferson."Request for Federal Emergency Management...." National Congress of American Indians Resolution#ABQ-10-026.(2010)<http://www.havasupai-nsn.gov/files/ABQ-10-026_Signed.pdf>
+        .text English, Cris. "Supai Flood 2008" Flood Danage Recovery Plan(Aug 2008)<http://www.havasupai-nsn.gov/files/ExecutiveSummary.pdf>
+        .text USDA. "Soils Survey of Hualapai- Havasupai Area, Arizona". (1992)<http://soildatamart.nrcs.usda.gov/Manuscripts/AZ699/0/hualapai.pdf>
+        .text http://cpluhna.nau.edu/People/pais.htm
+        .text http://farm7.staticflickr.com/6138/6001397920_95b2cd6caf_z.jpg
+        .text http://grandcanyonhistory.clas.asu.edu/images/sites/adjacentlands/havasupaireservation/Plower_thumb.jpg
+        .text http://naturevalleytrailview.com/callouts/83/havasupai_CO1_480.jpg
+        .text http://cpluhna.nau.edu/images/havasupai.jpg
+        .text http://3.bp.blogspot.com/_JPtOjy3b2pU/TGJNkk_Il6I/AAAAAAAAATM/qapAEPF2axA/s320/old+hava.jpg
+        .text http://www.lostandlovingit.org
+        .text < http://publishing.cdlib.org/ucpressebooks/view?docID=kt629020&chunk.if=ch07&toc.depth=1&toc.id=0&brand=ucpress&query=havasupai%2C+ flood>
+        .text <http://publishing.cdlib.org/ucpressebooks/view?docId=kt629020bd&chunk.id=pt03&toc.depth=100&toc.id=pt03&brand=ucpress;query=irrigaion#1>
+        .text <http://www.paztcn.wr.usgs.gov/webb_pdf/WRIR96-4059.pdf>
+        .text <http://www.havasupai-nsn.gov/government.html>
 
 append scripts
   script(src="/js/lib/impress.js")
